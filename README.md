@@ -14,4 +14,4 @@ My script performs slightly different:
   3. Merges the training and the test sets to create one data set.
 
 
-I decided do not change column names to 'something more descriptive than original features.txt' for two reasons: 1) the names provided in this file are descriptive enough, 2)renaming them would require compiling new codebook and create unnesessairy overhead for somebody trying to reproduse this work.
+I decided do not change column names to 'something more descriptive than original features.txt' for two reasons: 1) the names provided in this file are descriptive enough, 2)renaming them would require compiling new codebook and create unnesessairy overhead for somebody trying to reproduce this work.
