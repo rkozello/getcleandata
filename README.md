@@ -19,3 +19,6 @@ I decided do not change column names to 'something more descriptive than origina
 Another guess is what to consider 'only the measurements on the mean and standard deviation for each measurement'. I did not include variables with 'meanFreq' in names, only exact matches for 'mean' and 'std'. It does not make any difference, however (except lower column count).
 
 Required packages: data.table(), plyr()
+
+Before running the script, UCI HAR Dataset must be downloaded first, and unzipped in R working directory.
+Tested on GNU/Linux 3.13.0-37-generic #64-Ubuntu SMP, R version 3.1.1.
