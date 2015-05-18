@@ -12,9 +12,9 @@ My script performs slightly different:
   1. Reads test and train datasets, applies column names from activity_labels.txt, then extracts only measurements on the mean and standard deviation for each measurement. 
   2. Adds Activity and Subject columns to test and train datasets.
   3. Merges the training and the test sets to create one data set.
-  4. Creates a summary df for every Activity+Subject combination.
+  4. Creates a summary dataset for every Activity+Subject combination, and writes it to file.
 
-I decided do not change column names to 'something more descriptive than original features.txt' for two reasons: 1) the names provided in this file are descriptive enough, 2)renaming them would require compiling new codebook and create unnesessairy overhead for somebody trying to reproduce this work.
+I decided do not change column names to 'something more descriptive than original features.txt' for two reasons: 1) the names provided in this file are descriptive enough, 2)renaming them would require compiling new codebook and create unnesessairy overhead for somebody trying to reproduce this work. As a side effect, there is no need to write new codebook for the resulting dataset - variables in columns are Activity, Subject, and the subset of original activity_labels.txt.
 
 Another guess is what to consider 'only the measurements on the mean and standard deviation for each measurement'. I did not include variables with 'meanFreq' in names, only exact matches for 'mean' and 'std'. It does not make any difference, however (except lower column count).
 
