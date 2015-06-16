@@ -5,14 +5,12 @@ According to Course Project Assignmeant, only mean and standard deviation column
 Here is a list of variables selected from original file for summary. Variable names are similar to the original features.txt file, but "(", ")" and "-" symbols are replaced by dots. Additional variables in the summary dataset are Activity and Subject.  
 1. "Activity"	Variable width text  
    Type of activity 
-```
-	LAYING  
-	SITTING  
-	STANDING  
-	WALKING  
-	WALKING_DOWNSTAIRS  
-	WALKING_UPSTAIRS  
-```
+  * LAYING  
+  * SITTING  
+  * STANDING  
+  * WALKING  
+  * WALKING_DOWNSTAIRS  
+  * WALKING_UPSTAIRS  
 2.  "Subject"	Integer (2)  
    Number 1 to 30, representing volunteer
 3.  "tBodyAcc.mean...X"		Fixed-point  
