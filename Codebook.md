@@ -1,19 +1,38 @@
 ## Getting and Cleaning Data Course Project results
+<<<<<<< HEAD
 ### Data Dictionary
 The data linked to from the course website represent data collected from the accelerometers of the Samsung Galaxy S smartphone. Theare are two types of signals: prefix 't' to denote time domain, and the 'f' to indicate frequency domain signals.
+=======
+## Data Dictionary
+
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+>>>>>>> 4af52c58f2173e839dd038eaf25d5f37ac0aebe9
 
 According to Course Project Assignmeant, only mean and standard deviation columns were selected, and then results aggregated for each activity (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS), and each subject (30 persons) by averaging appropriate subsets.
 
 Here is a list of variables selected from original file for summary. Variable names are similar to the original features.txt file, but "(", ")" and "-" symbols are replaced by dots. Additional variables in the summary dataset are Activity and Subject.
 
+<<<<<<< HEAD
+=======
+Here is a list of variables selected from original file for summary. Additional variables in the summary dataset are Activity and Subject.
+
+>>>>>>> 4af52c58f2173e839dd038eaf25d5f37ac0aebe9
 1 "Activity"	Variable width text
+
    Type of activity 
+   
 	LAYING
+	
 	SITTING
+	
 	STANDING
+	
 	WALKING
+	
 	WALKING_DOWNSTAIRS
+	
 	WALKING_UPSTAIRS
+<<<<<<< HEAD
 2 "Subject"	Integer (2)
    Number 1 to 30, representing volunteer
 3 "tBodyAcc.mean...X"		Fixed-point
@@ -148,3 +167,35 @@ Here is a list of variables selected from original file for summary. Variable na
     Body Gyroscope Jerk signal FFT magnitude mean
 68 "fBodyBodyGyroJerkMag.std.."	Fixed-point
     Body Gyroscope Jerk signal FFT magnitude standard deviation
+=======
+	
+2 "Subject"	2
+
+   Number 1 to 30, representing volunteer
+   
+3 "tBodyAcc.mean...X"	7
+
+   Body Acceleration signal mean - X axis
+   
+4 "tBodyAcc.mean...Y"	7
+
+   Body Acceleration signal mean - Y axis
+   
+5 "tBodyAcc.mean...Z"	7
+
+   Body Acceleration signal mean - Z axis
+   
+6 "tBodyAcc.std...X"	7
+
+   Body Acceleration signal standard deviation - X axis
+   
+7 "tBodyAcc.std...Y	7
+
+   Body Acceleration signal standard deviation - Y axis
+   
+8 "tBodyAcc.std...Z	7
+
+   Body Acceleration signal standard deviation - Y axis
+   
+"tGravityAcc.mean...X" "tGravityAcc.mean...Y" "tGravityAcc.mean...Z" "tGravityAcc.std...X" "tGravityAcc.std...Y" "tGravityAcc.std...Z" "tBodyAccJerk.mean...X" "tBodyAccJerk.mean...Y" "tBodyAccJerk.mean...Z" "tBodyAccJerk.std...X" "tBodyAccJerk.std...Y" "tBodyAccJerk.std...Z" "tBodyGyro.mean...X" "tBodyGyro.mean...Y" "tBodyGyro.mean...Z" "tBodyGyro.std...X" "tBodyGyro.std...Y" "tBodyGyro.std...Z" "tBodyGyroJerk.mean...X" "tBodyGyroJerk.mean...Y" "tBodyGyroJerk.mean...Z" "tBodyGyroJerk.std...X" "tBodyGyroJerk.std...Y" "tBodyGyroJerk.std...Z" "tBodyAccMag.mean.." "tBodyAccMag.std.." "tGravityAccMag.mean.." "tGravityAccMag.std.." "tBodyAccJerkMag.mean.." "tBodyAccJerkMag.std.." "tBodyGyroMag.mean.." "tBodyGyroMag.std.." "tBodyGyroJerkMag.mean.." "tBodyGyroJerkMag.std.." "fBodyAcc.mean...X" "fBodyAcc.mean...Y" "fBodyAcc.mean...Z" "fBodyAcc.std...X" "fBodyAcc.std...Y" "fBodyAcc.std...Z" "fBodyAccJerk.mean...X" "fBodyAccJerk.mean...Y" "fBodyAccJerk.mean...Z" "fBodyAccJerk.std...X" "fBodyAccJerk.std...Y" "fBodyAccJerk.std...Z" "fBodyGyro.mean...X" "fBodyGyro.mean...Y" "fBodyGyro.mean...Z" "fBodyGyro.std...X" "fBodyGyro.std...Y" "fBodyGyro.std...Z" "fBodyAccMag.mean.." "fBodyAccMag.std.." "fBodyBodyAccJerkMag.mean.." "fBodyBodyAccJerkMag.std.." "fBodyBodyGyroMag.mean.." "fBodyBodyGyroMag.std.." "fBodyBodyGyroJerkMag.mean.." "fBodyBodyGyroJerkMag.std.."
+>>>>>>> 4af52c58f2173e839dd038eaf25d5f37ac0aebe9

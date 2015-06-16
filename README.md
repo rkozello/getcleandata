@@ -8,13 +8,7 @@ Original Assignment was to create one R script called run_analysis.R that does t
   4.  Appropriately labels the data set with descriptive variable names. 
   5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-My script performs slightly different:
-  1. Reads test and train datasets, applies column names from activity_labels.txt, then extracts only measurements on the mean and standard deviation for each measurement. 
-  2. Adds Activity and Subject columns to test and train datasets.
-  3. Merges the training and the test sets to create one data set.
-  4. Creates a summary dataset for every Activity+Subject combination, and writes it to file.
-
-I decided do not change column names to 'something more descriptive than original features.txt', because names provided in this file are descriptive enough, and there is no need to write new codebook for the resulting dataset - variables in columns are Activity, Subject, and the subset of original features.txt.
+I decided do not change column names to 'something more descriptive than original features.txt', because names provided in this file are descriptive enough - variables in columns are Activity, Subject, and the subset of original features.txt file.
 
 Another guess is what to consider 'only the measurements on the mean and standard deviation for each measurement'. I did not include variables with 'meanFreq' in names, only exact matches for 'mean' and 'std'. It does not make any difference, however (except lower column count).
 
