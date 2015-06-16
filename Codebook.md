@@ -4,7 +4,7 @@ The data linked to from the course website represent data collected from the acc
 According to Course Project Assignmeant, only mean and standard deviation columns were selected, and then results aggregated for each activity (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS), and each subject (30 persons) by averaging appropriate subsets.  
 Here is a list of variables selected from original file for summary. Variable names are similar to the original features.txt file, but "(", ")" and "-" symbols are replaced by dots. Additional variables in the summary dataset are Activity and Subject.  
 1. "Activity"	Variable width text  
-   Type of activity 
+  Type of activity  
   LAYING  
   SITTING   
   STANDING   
