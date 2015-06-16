@@ -11,7 +11,7 @@
   WALKING   
   WALKING_DOWNSTAIRS   
   WALKING_UPSTAIRS   
-2.  "Subject"	Integer (2)  
+2.  "Subject"	Integer (2)   
    Number 1 to 30, representing volunteer
 3.  "tBodyAcc.mean...X"		Fixed-point  
    Body Acceleration signal mean - X axis
