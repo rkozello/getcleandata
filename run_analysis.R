@@ -33,9 +33,9 @@ X_mean_std <- merge(activity_names, X_mean_std, sort=F)
 X_mean_std$V1 <- NULL
 
 # Create a function to round results (make them more readable) 
-roundmean <- function(x) round(mean(x), 4)
+# roundmean <- function(x) round(mean(x), 4)
 # Calculate mean of each variable for every activity and subject code
-X_average <- ddply(X_mean_std, .(Activity, Subject), numcolwise(roundmean))
+X_average <- ddply(X_mean_std, .(Activity, Subject), numcolwise(mean))
 
 # Write resulting data frame to txt file using write.table()
 write.table(X_average, file="course_project_result.txt", row.name=F)
