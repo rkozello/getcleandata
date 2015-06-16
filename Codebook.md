@@ -3,7 +3,7 @@
 The data linked to from the course website represent data collected from the accelerometers of the Samsung Galaxy S smartphone. Theare are two types of signals: prefix 't' to denote time domain, and the 'f' to indicate frequency domain signals.  
 According to Course Project Assignmeant, only mean and standard deviation columns were selected, and then results aggregated for each activity (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS), and each subject (30 persons) by averaging appropriate subsets.  
 Here is a list of variables selected from original file for summary. Variable names are similar to the original features.txt file, but "(", ")" and "-" symbols are replaced by dots. Additional variables in the summary dataset are Activity and Subject.  
-1  `"Activity"	Variable width text`  
+1. "Activity"	Variable width text
    Type of activity 
 ```
 	LAYING  
@@ -13,13 +13,13 @@ Here is a list of variables selected from original file for summary. Variable na
 	WALKING_DOWNSTAIRS  
 	WALKING_UPSTAIRS  
 ```
-2  `"Subject"	Integer (2)`  
+2.  "Subject"	Integer (2)
    Number 1 to 30, representing volunteer
-3  "tBodyAcc.mean...X"		Fixed-point
+3.  "tBodyAcc.mean...X"		Fixed-point
    Body Acceleration signal mean - X axis
-4  "tBodyAcc.mean...Y"		Fixed-point
+4.  "tBodyAcc.mean...Y"		Fixed-point
    Body Acceleration signal mean - Y axis
-5  "tBodyAcc.mean...Z"		Fixed-point
+5.  "tBodyAcc.mean...Z"		Fixed-point
    Body Acceleration signal mean - Z axis
 6  "tBodyAcc.std...X"		Fixed-point
    Body Acceleration signal standard deviation - X axis
